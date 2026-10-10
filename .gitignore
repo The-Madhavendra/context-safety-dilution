@@ -1,0 +1,39 @@
+# ==============================================================================
+# Gitignore for Context-Padding Safety Benchmark
+# ==============================================================================
+
+# 1. Environment & API Keys
+.env
+.env.*
+*.key
+*.pem
+
+# 2. Virtual Environments & Local IDE Config
+.venv/
+env/
+venv/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 3. Python Caches & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# 4. OS & System Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 5. Local Runtime Logs & Evaluation Artifacts
+logs/
+*.log
+*.eval
+custom_logs/
+varied_response_logs/
+fail_logger.json
+scratch/
